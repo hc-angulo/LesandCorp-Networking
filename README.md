@@ -9,15 +9,6 @@
 
 </div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Cisco%20Packet%20Tracer-8.2.0-blue?style=for-the-badge&logo=cisco" />
-  <img src="https://img.shields.io/badge/Networking-CCNA%20Level-blueviolet?style=for-the-badge&logo=linuxfoundation" />
-  <img src="https://img.shields.io/badge/Linux-Intermediate-orange?style=for-the-badge&logo=linux" />
-  <img src="https://img.shields.io/badge/Cybersecurity-In%20Progress-success?style=for-the-badge&logo=datadog" />
-</p>
-
----
-
 ## 🏢 Escenario del proyecto  
 
 **Lesand Corp** es una organización dedicada a las **tecnologías de la información (TI)**.  
@@ -51,11 +42,11 @@ El objetivo fue **garantizar la disponibilidad, escalabilidad y seguridad de la 
 - Implementación de acceso remoto (Telnet) y gestión del SOC.
 📂 [Packet Tracer](./Etapa1_Infraestructura_y_SOC/packet_tracer_file/Etapa1_LesandCorp.7z) | 📑 [Informe PDF](./Etapa1_Infraestructura_y_SOC/reporte/Etapa1_Informe_LesandCorp.pdf)
 
-### 🔹 [Etapa 2 — Segmentación y Red de Campus](./Etapa2_VLANs_y_Campus/)
+### 🔹 [Etapa 2 — Segmentación de Red y PortChannel](./Etapa2_VLANs_y_Campus/)
 - Creación de VLANs por departamentos (Desarrollo, Testing, Producción, TI, Ciberseguridad, Invitados).  
 - Configuración de enlaces troncales y gateways (SVI).  
 - Activación de DHCP en switches de distribución.  
-- Implementación de PortChannel y LLDP en SOC.
+- Implementación de PortChannel en Gerencia y LLDP en SOC.
 📂 [Packet Tracer](./Etapa2_VLANs_y_Campus/packet_tracer_file/Etapa2_LesandCorp_VLANs.zip) | 📑 [Informe PDF](./Etapa2_VLANs_y_Campus/reporte/Etapa2_LesandCorp_VLANs.pdf)
 
 ### 🔹 [Etapa 3 — Enrutamiento IPv6 y Alta Disponibilidad](./Etapa3_IPv6_y_HSRP/)
@@ -85,7 +76,7 @@ El objetivo fue **garantizar la disponibilidad, escalabilidad y seguridad de la 
 | Categoría | Tecnologías |
 |:----------:|:------------|
 | **Simulación** | Cisco Packet Tracer 8.1.1 – 8.2.0 |
-| **Sistemas** | Cisco IOS, Linux |
+| **Sistemas** | Cisco IOS|
 | **Protocolos** | VLAN, DHCP, DNS, FTP, HTTP, SMTP, LLDP, STP, OSPF, BGP, RIPv2, HSRP, IPv6, NAT, SNMP, NTP, NetFlow, GRE |
 | **Servicios** | Web, Correo, DHCP, DNS, VPN, SOC |
 
@@ -106,15 +97,10 @@ El objetivo fue **garantizar la disponibilidad, escalabilidad y seguridad de la 
 - 🔐 Implementar IDS/IPS (Snort o Suricata).  
 - 🧩 Integrar autenticación AAA (TACACS+ / RADIUS).  
 - 🕵️ Simular ataques controlados y respuesta ante incidentes.  
-- ☁️ Crear escenarios híbridos con AWS / Azure.  
-- 🧠 Automatizar configuraciones con Python y Ansible.  
-
-
-
-
+- ☁️ Crear escenarios híbridos con AWS.  
+- 🧠 Automatizar configuraciones con Python.  
 
 ---
 
 ⭐ _Este proyecto replica un entorno corporativo real, aplicando principios de diseño, segmentación y seguridad de red fundamentales para el desarrollo profesional en ciberseguridad._  
 
-</div>
